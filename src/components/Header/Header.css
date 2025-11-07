@@ -1,0 +1,64 @@
+/* Header topbar */
+.site-header {
+  background: #E84141 ;
+  border-bottom: 1px solid #f0e7e7;
+  height: 80px;
+  position: fixed; top: 0; left: 0; width: 100%;
+}
+
+/* Add space so content doesn't go behind header */
+.body {
+  margin: 0;
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  background: #E84141 ;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+}
+.logo-mark { 
+  font-size: 22px; margin-top: 5%; 
+}
+
+.logo-title { 
+  font-size: 25px; letter-spacing: 0.4px; margin-top: 5%; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900; /* Extra Bold */
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px #000; 
+
+}
+.logo-second-title {
+  font-size: 25px; letter-spacing: 0.4px; margin-top: 5%; 
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900; /* Extra Bold */
+  letter-spacing: 1px;
+  -webkit-text-stroke: 1px ; 
+  color: white;
+}
+.logo-tagline {
+  font-size: 10px;
+  margin-top: 16%;
+  margin-left: -32%;
+  font-size: Poppins;
+}
+
+.main-navbar {
+  margin-right: 60%;
+  margin-top: 2%;
+/*  color: yellow;*/
+}
